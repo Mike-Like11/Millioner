@@ -5,7 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/rounded_button.xml" value="0.2565" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.38958333333333334" />
-        <entry key="app/src/main/res/layout/fragment_menu_start.xml" value="0.33527069091796874" />
+        <entry key="app/src/main/res/layout/fragment_menu_start.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_question.xml" value="0.1203125" />
         <entry key="app/src/main/res/layout/menu_start.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/question.xml" value="0.4036458333333333" />
       </map>
