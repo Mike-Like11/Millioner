@@ -40,10 +40,10 @@ class MenuStart : Fragment() {
         val v = inflater.inflate(R.layout.fragment_menu_start, container, false)
         val btn = v.findViewById(R.id.gameStart) as MaterialButton
         var viewmodel = ViewModelProvider(this).get(MenuStartViewModel::class.java)
-        val test1 = Test(name = "Test1",  id = 0)
-        val test2 = Test(name = "Test2",  id = 1)
-        viewmodel.insert(test1)
-        viewmodel.insert(test2)
+//        val test1 = Test(name = "Test1",  id = 0)
+//        val test2 = Test(name = "Test2",  id = 1)
+//        viewmodel.insert(test1)
+//        viewmodel.insert(test2)
         btn.setOnClickListener {
             parentFragmentManager.beginTransaction().replace(R.id.fragment_content, QuestionFragment()).commit()
             Toast.makeText(context,"dasdsadsadasdasdas",Toast.LENGTH_SHORT).show()
